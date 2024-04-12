@@ -46,9 +46,32 @@ composer install
 
 #### 2. Configurar archivo de entorno (.env):
 
-Copia el archivo .env.example y renómbralo a .env. Este archivo contiene la configuración específica de tu entorno, como las credenciales de la base de datos y las configuraciones de correo electrónico.
+Copia el archivo .env.example y renómbralo a .env. Este archivo contiene la configuración específica de tu entorno, como las credenciales de la base de datos, el nombre de la aplicación o el idioma.
 
 Asegúrate de configurar correctamente este archivo según tu entorno local.
+
+Para el caso del nombre de la aplicación, edite la siguiente línea de su archivo .env:
+
+```bash
+APP_NAME="Api Challenge"
+```
+
+En cuanto al idioma de la aplicación, edite la siguiente línea de su archivo .env:
+
+```bash
+APP_LOCALE=es
+```
+
+Finalmente, edite las siguientes líneas según corresponda a su entorno de desarrollo local para la conexión con la base de datos:
+
+```bash
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=api_challenge
+DB_USERNAME=root
+DB_PASSWORD=
+```
 
 #### 3. Generar clave de aplicación (app_key):
 
