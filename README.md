@@ -5,9 +5,9 @@
 <p align="center">
 <a href="https://laravel.com/"><img src="https://img.shields.io/badge/Laravel-v11.3.1-red?logo=laravel" alt="Laravel"></a>
 <a href="https://www.php.net/"><img src="https://img.shields.io/badge/PHP-^8.2.17-9cf?logo=php" alt="PHP"></a>
-<a href="https://nodejs.org/es/"><img src="https://img.shields.io/badge/Node-v20.11.1-success?logo=nodedotjs" alt="NodeJS"></a>
+<a href="https://nodejs.org/en/"><img src="https://img.shields.io/badge/Node-v20.11.1-success?logo=nodedotjs" alt="NodeJS"></a>
 <a href="https://getbootstrap.com/"><img src="https://img.shields.io/badge/Bootstrap%20-^5.3.3-blueviolet?logo=bootstrap" alt="Bootstrap"></a>
-<a href="https://tailwindcss.com/"><img src="https://img.shields.io/badge/Vite-v5.0-blue?logo=vite" alt="Vite"></a>
+<a href="https://vitejs.dev/"><img src="https://img.shields.io/badge/Vite-v5.0-blue?logo=vite" alt="Vite"></a>
 </p>
 <br>
 
@@ -38,7 +38,7 @@ En cuanto a la plantilla usada, se menciona a continuación.
 
 #### 1. Instalación de dependencias
 
-Abra una terminal en la carpeta raíz del proyecto y ejecute el siguiente comando para instalar todas las dependencias de PHP que están definidas en el archivo composer.json:
+Una vez que haya descargado o clonado el presente repositorio, abra una terminal en la carpeta raíz del proyecto y ejecute el siguiente comando para instalar todas las dependencias de PHP que están definidas en el archivo composer.json:
 
 ```bash
 composer install
